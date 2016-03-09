@@ -1,0 +1,137 @@
+html {
+    position: relative;
+    min-height: 100%
+}
+
+body {
+	margin: 0 0 65px;
+}
+
+/*Reglas del Header*/
+.header-red {
+    background: #C1272D;
+    width: 100%;
+    height: 47px;
+
+}
+
+.banerheader {
+    height: 48px;
+    background: #140E39;
+    position:relative;
+    padding: 17px 17px 17px 17px;
+}
+
+
+.tec-logo-container {
+    display: inline-block;
+    background-image: url("../images/Logo_TEC_1024.png");
+    background-repeat: no-repeat;
+    padding: 0px;
+    cursor: pointer;
+    z-index: 4;
+    height: 42px;
+    width: 200px;
+}
+
+/*Reglas del Body*/
+
+h1 {
+    font-family: helvetica;
+    font-size: 14pt !important;
+    color: #140E39;    
+    text-align: left;
+    font-weight: normal;
+    padding: 0px 0px 5px 5px;
+    margin: 5px 0px 5px 0px !important;
+    border-bottom: 1px;
+}
+
+hr {
+    border: 2px solid #C1272D;
+    min-width: 186px;
+    margin-bottom: 10px;
+}
+ ul {
+        padding-left: 0 !important;
+        line-height: 14px;
+    }
+
+li {
+    list-style:none;
+    display: inline-block;
+    padding: 10px;
+}
+
+img:hover, img:focus {   
+    cursor: pointer;
+    background-color:#dbd9d9; 
+    opacity:.4;
+}
+
+/*Reglas del footer*/
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../images/Logo_TEC.png");
+}
+
+.banerheader.footer {
+        height: 68px;
+        background: #140E39;
+        position:relative;
+        padding: 17px 17px 17px 17px;
+}
+
+.text-info-footer {
+    text-align: left;
+    margin-top: 0px;
+    font-family: helvetica;
+    font-size: 8.3px;
+    color: #FFF;
+    display: inline;
+    margin-bottom: 0px;
+}
+
+#margin-description {
+    margin-right: 8px;
+}
+
+@media all and (max-width: 780px) {
+    /*
+    .banerheader.footer {
+        height: 78px;
+        background: #140E39;
+        position:relative;
+        padding: 17px 17px 17px 17px;
+    }
+    */
+    p.text-info-footer {
+        display: inline-block;
+    }
+    /*
+    .wrap {
+        height: 70%;
+    }
+    */
+    .row {
+        padding: 5% 15% 5% 15% !important;
+        height: auto;
+        text-align: center;
+    }
+    
+   
+}
+   
+@media all and (min-width: 781px) {
+
+    .row {
+        padding: 5% 15% 5% 15% !important;
+        height: 100%;
+        text-align: center;
+        min-height: 270px;
+    }
+    
+}
